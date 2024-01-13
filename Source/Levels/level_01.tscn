@@ -12,6 +12,7 @@ size = Vector2(2840, 252)
 
 [node name="Player" parent="." instance=ExtResource("1_y87wq")]
 position = Vector2(826, 815)
+JUMP_VELOCITY = -800.0
 
 [node name="Environment" type="Node2D" parent="."]
 
