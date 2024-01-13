@@ -21,7 +21,7 @@ A minimal platformer showing basic Godot use
   * Intended just for assets used in game, not DCC files like Photoshop .PSDs, .blend etc. just their outputs like .pngs, .gltf
   * As the project is currently only using git/github **do not put files larger than 100mb here**. Use a lower resolution, more compression etc. If it's absolutely essential to use a file over the size limit, the project needs a restructuring.
 ### res://Documentation
-  * For plain-text files documenting the project (default to markdown). Only use linked, externally hosted images rather than including image files, to avoid bloating project size. Avoid images where possible to avoid dependancies.
+  * For plain-text files documenting the project (default to markdown). Only use images already used in-game or linked, externally hosted images rather than including new image files just for documentation, to avoid bloating project size. Avoid images where possible to avoid dependancies.
 ### res://Source
   * For most text based files ie. scene files (.tscn), gdscript (.gd), resources (.tres) etc.
   * Source is dependant on assets from content, so where possible - structure it in a way that's laid out and named the same as its related Content directories/files
