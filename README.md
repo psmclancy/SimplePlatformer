@@ -13,7 +13,7 @@ A minimal platformer showing basic Godot use
  
 # Repository Structure
 
-**_NOTE:_** In Godot, `res://` refers to the 'home' directory, in the case the `SimplePlatformer` directory.\
+**_NOTE:_** In Godot, `res://` refers to the 'home' directory, in the case the `SimplePlatformer` directory.
 
 ### res://Content/
   * For most non text-based assets ie. images, 3d models, audio files etc.
