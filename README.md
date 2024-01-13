@@ -13,11 +13,11 @@ A minimal platformer showing basic Godot use
  
 # Repository Structure
 
-**_NOTE:_** In Godot, `res://` refers to the 'home' directory, in the case the `SimplePlatformer` directory.\
+**_NOTE:_** In Godot, `res://` refers to the 'home' directory, in the case the `SimplePlatformer` directory.
 
 ### res://Content/
   * For most non text-based assets ie. images, 3d models, audio files etc.
-  * Separating assets into this folder hurts modularity, but is important long term in case binaries are stored/version controlled with a different method than text/"Source" files. At some point binaries may be included that can't be handled by standard git.
+  * Separating assets into this folder and Source hurts modularity as some things will have dependancies split between Content and Source, but is important long term in case binaries are stored/version controlled with a different method than text/"Source" files. At some point binaries may be included that can't be handled by standard git.
   * Intended just for assets used in game, not DCC files like Photoshop .PSDs, .blend etc. just their outputs like .pngs, .gltf
   * As the project is currently only using git/github **do not put files larger than 100mb here**. Use a lower resolution, more compression etc. If it's absolutely essential to use a file over the size limit, the project needs a restructuring.
 ### res://Documentation
